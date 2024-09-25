@@ -32,3 +32,7 @@ body {
 .pergunta + .pergunta {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.btn-maxwidth {
+  max-width: 140px;
+}
