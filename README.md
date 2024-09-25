@@ -25,7 +25,7 @@ Projeto desenvolvido durante curso de Bootstrap da Origamid.
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,git,github,figma)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,javascript,git,github,figma)](https://skillicons.dev)
 
 ## 💻 Projeto
 
