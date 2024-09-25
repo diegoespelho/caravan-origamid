@@ -21,7 +21,7 @@ Projeto desenvolvido durante curso de Bootstrap da Origamid.
   <img alt="Caravan" src=".github/preview.jpg" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias e Ferramentas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
