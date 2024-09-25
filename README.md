@@ -1,9 +1,7 @@
-<h1 align="center"> Caravan </h1>
+<h1 align="center">Caravan</h1>
 
 <p align="center">
 Projeto desenvolvido durante curso de Bootstrap da Origamid.
-<br/>
-<a href="https://www.origamid.com/curso/bootstrap-4/">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
 <p align="center">
@@ -27,28 +25,19 @@ Projeto desenvolvido durante curso de Bootstrap da Origamid.
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- Bootstrap
-- Git e Github
-- Figma
+[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,git,github,figma)](https://skillicons.dev)
 
 ## 💻 Projeto
 
-Caravan é um site criado e estilizado usando o framework Bootstrap 5.
+Caravan é um website desenvolvido utilizando o framework Bootstrap.
 
-- [Acesse o projeto finalizado, online](https://diegoespelho.github.io/caravan/)
-
-- [Assistir aulas](https://www.origamid.com/curso/bootstrap-4/)
+- [Acesse o projeto finalizado aqui](https://diegoespelho.github.io/caravan/)
 
 ## 🔖 Layout
 
-O layout desse projeto foi todo desenvolvido utilizando a ferramenta Figma.
+O layout desse projeto foi desenvolvido utilizando a ferramenta de design Figma.
 
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Origamid 🐺
 
