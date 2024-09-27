@@ -9,6 +9,50 @@
   </head>
 
   <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalLogin"
+      tabindex="-1"
+      aria-labelledby="modalLoginTitulo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalLoginTitulo">
+              Entre na sua conta
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="loginEmail" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="loginEmail" />
+              </div>
+              <div class="mb-3">
+                <label for="loginSenha" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="loginSenha" />
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Entrar na Conta
+              </button>
+              <div class="form-text">
+                Esqueceu a senha?
+                <a href="#">Clique aqui</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- NavBar -->
     <nav
       class="navbar navbar-expand-md bg-body-tertiary fixed-top p-3 box-shadow"
@@ -58,7 +102,15 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Login</a>
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#modalLogin"
+            >
+              Login
+            </a>
           </li>
           <li class="nav-item">
             <a
@@ -180,7 +232,7 @@
     <!-- Vantagens -->
     <section class="py-5 bg-light text-center">
       <div class="container">
-        <div class="my-5">
+        <div>
           <span class="h6 d-block">TUDO DE MELHOR PARA VOCÊ</span>
           <h2 class="display-4 text-primary">Aproveite as Vantagens</h2>
         </div>
@@ -253,9 +305,7 @@
           </div>
         </div>
 
-        <a href="planos.html" class="btn btn-primary btn-lg mb-5">
-          Comprar Plano
-        </a>
+        <a href="planos.html" class="btn btn-primary btn-lg">Comprar Plano</a>
       </div>
     </section>
 
@@ -273,7 +323,7 @@
     </section>
 
     <!-- Perguntas frequentes -->
-    <section class="container py-5">
+    <section class="container">
       <div class="my-5 text-center">
         <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
         <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
@@ -419,17 +469,31 @@
           <div class="col-md-3 col-6">
             <h4 class="h6">PÁGINAS</h4>
             <ul class="list-unstyled">
-              <li><a class="text-decoration-none" href="planos.html">Planos</a></li>
-              <li><a class="text-decoration-none" href="contato.html">contato</a></li>
-              <li><a class="text-decoration-none" href="inscricao.html">Increva-se</a></li>
+              <li>
+                <a class="text-decoration-none" href="planos.html">Planos</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="contato.html">contato</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="inscricao.html">
+                  Increva-se
+                </a>
+              </li>
             </ul>
           </div>
           <div class="col-md-3 col-6">
             <h4 class="h6">LOCAIS</h4>
             <ul class="list-unstyled">
-              <li><a class="text-decoration-none" href="local.html">California</a></li>
-              <li><a class="text-decoration-none" href="local.html">Paris</a></li>
-              <li><a class="text-decoration-none" href="local.html">Dublin</a></li>
+              <li>
+                <a class="text-decoration-none" href="local.html">California</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="local.html">Paris</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="local.html">Dublin</a>
+              </li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -443,9 +507,30 @@
           <div class="col-md-2 col-3">
             <h4 class="h6">REDES SOCIAIS</h4>
             <ul class="list-unstyled">
-              <li><a class="btn btn-sm btn-outline-secondary mb-2 d-block .btn-maxwidth" href="#">Facebook</a></li>
-              <li><a class="btn btn-sm btn-outline-secondary mb-2 d-block .btn-maxwidth" href="#">Twitter</a></li>
-              <li><a class="btn btn-sm btn-outline-secondary mb-2 d-block .btn-maxwidth" href="#">YouTube</a></li>
+              <li>
+                <a
+                  class="btn btn-sm btn-outline-secondary mb-2 d-block .btn-maxwidth"
+                  href="#"
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  class="btn btn-sm btn-outline-secondary mb-2 d-block .btn-maxwidth"
+                  href="#"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  class="btn btn-sm btn-outline-secondary mb-2 d-block .btn-maxwidth"
+                  href="#"
+                >
+                  YouTube
+                </a>
+              </li>
             </ul>
           </div>
         </div>
