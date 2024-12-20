@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 Caravan é um website desenvolvido utilizando o framework Bootstrap.
 
-- [Acesse o projeto finalizado aqui](https://diegoespelho.github.io/caravan/)
+- [Acesse o projeto finalizado aqui](https://diegoespelho.github.io/caravan-origamid/)
 
 ## 🔖 Layout
 
