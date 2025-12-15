@@ -1,7 +1,7 @@
 <h1 align="center">Caravan</h1>
 
 <p align="center">
-Projeto desenvolvido durante curso de Bootstrap da Origamid.
+Projeto web desenvolvido durante curso de Bootstrap da Origamid.
 </p>
 
 <p align="center">
